@@ -4,4 +4,4 @@ var e;function t(e){return(t="function"==typeof Symbol&&"symbol"==typeof Symbol.
 },{}],"XaSt":[function(require,module,exports) {
 "use strict";var e=t(require("reveal.js"));function t(e){return e&&e.__esModule?e:{default:e}}window.addEventListener("load",function(){var e=document.getElementById("shader-text"),t=new Blotter.Text("Shaders",{family:"Main Black",size:140,fill:"#171717"}),n=new Blotter.ChannelSplitMaterial;new Blotter(n,{texts:t}).forText(t).appendTo(e),e.onmousemove=function(t){var a=e.getBoundingClientRect(),i=t.clientX-a.left,l=t.clientY-a.top,o=i-a.width/2,r=l-a.height/2,u=.03+Math.sqrt(o*o+r*r)/a.width*.1,d=180*Math.atan2(o,r)/Math.PI;n.uniforms.uRotation.value=d,n.uniforms.uOffset.value=u}},!1);
 },{"reveal.js":"AKcd"}]},{},["XaSt"], null)
-//# sourceMappingURL=/slide.6499c6c3.js.map
+//# sourceMappingURL=https://mr-joph.github.io/belatrix-brownbag/slide.6499c6c3.js.map
