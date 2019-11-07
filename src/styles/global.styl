@@ -1,0 +1,31 @@
+@import "load-fonts"
+@import "variables"
+@import "headings.styl"
+
+html,
+body
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    font-size: 16px
+
+
+body,
+.reveal
+    @extend .regular
+
+.gui-pivot
+    position: absolute
+    width: 0
+    height: 0
+    right: 300px
+    top: 0
+
+.margin-center
+    margin: auto
+
+.raw-img
+    border: none !important
+    box-shadow: none !important
+
+.content-center
+    justify-content: center;

@@ -1,0 +1,10 @@
+extends ../slide-base.pug
+
+block content
+    .row
+        .col-xs-10
+            #sin-cos-canvas
+        .col-xs-2
+            field
+                input#radius(type="number", value="50")
+    script(src="slides/demo-sin-cos/slide.js")
